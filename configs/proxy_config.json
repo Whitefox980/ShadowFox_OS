@@ -1,0 +1,236 @@
+{
+  "shadowfox_elite_proxy_config": {
+    "version": "2.0_PRO",
+    "generated_by": "ShadowRoky_Elite_Intelligence",
+    "stealth_level": "MAXIMUM",
+    
+    "proxy_sources": {
+      "tier_1_premium": [
+        "https://api.proxyscrape.com/v2/?request=get&protocol=http&timeout=5000&country=all&ssl=all&anonymity=elite",
+        "https://api.proxyscrape.com/v2/?request=get&protocol=socks5&timeout=5000&country=all&anonymity=elite",
+        "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+        "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+        "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt",
+        "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt"
+      ],
+      
+      "tier_2_backup": [
+        "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+        "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
+        "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt",
+        "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt"
+      ],
+      
+      "residential_premium": [
+        "https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt",
+        "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt",
+        "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt"
+      ]
+    },
+    
+    "elite_proxy_list": [
+      "socks5://198.50.163.192:3129",
+      "socks5://138.197.10.76:15300", 
+      "http://45.77.55.173:8080",
+      "http://104.248.90.25:8080",
+      "socks5://159.203.61.169:3128",
+      "http://167.172.180.46:39593",
+      "socks5://68.183.111.90:23500",
+      "http://206.189.118.100:8080",
+      "socks5://142.93.240.99:31280",
+      "http://159.89.195.14:8080",
+      
+      "socks5://185.32.6.129:8080",
+      "http://91.107.6.115:53281", 
+      "socks5://178.62.229.24:7497",
+      "http://134.209.29.120:8080",
+      "socks5://161.35.70.249:8080",
+      "http://143.198.228.250:80",
+      "socks5://206.189.153.241:8080",
+      "http://128.199.202.122:8080",
+      "socks5://159.89.49.172:31280",
+      "http://165.22.81.30:43993",
+      
+      "socks5://51.79.144.52:8080",
+      "http://8.210.83.33:80",
+      "socks5://47.91.45.198:2080", 
+      "http://120.79.16.132:7890",
+      "socks5://47.243.95.228:10080",
+      "http://39.175.77.7:30001",
+      "socks5://47.113.221.120:443",
+      "http://47.92.248.197:80",
+      "socks5://8.134.140.97:3128",
+      "http://123.60.139.197:443",
+      
+      "socks5://103.149.53.120:59166",
+      "http://103.149.53.120:80",
+      "socks5://103.127.204.109:25327",
+      "http://14.139.242.242:8080",
+      "socks5://103.196.136.158:59166",
+      "http://182.23.29.114:8080",
+      "socks5://139.59.57.40:59166",
+      "http://159.65.69.186:9300",
+      "socks5://206.189.118.100:59166", 
+      "http://128.199.221.91:32603"
+    ],
+    
+    "geographic_rotation": {
+      "usa_west": [
+        "socks5://138.197.10.76:15300",
+        "http://104.248.90.25:8080", 
+        "socks5://159.203.61.169:3128",
+        "http://167.172.180.46:39593"
+      ],
+      
+      "usa_east": [
+        "socks5://68.183.111.90:23500",
+        "http://206.189.118.100:8080",
+        "socks5://142.93.240.99:31280",
+        "http://159.89.195.14:8080"
+      ],
+      
+      "europe": [
+        "socks5://185.32.6.129:8080",
+        "http://91.107.6.115:53281",
+        "socks5://178.62.229.24:7497", 
+        "http://134.209.29.120:8080"
+      ],
+      
+      "asia_pacific": [
+        "socks5://47.91.45.198:2080",
+        "http://120.79.16.132:7890",
+        "socks5://47.243.95.228:10080",
+        "http://39.175.77.7:30001"
+      ]
+    },
+    
+    "advanced_config": {
+      "rotation_strategy": "geographic_sequential", 
+      "rotation_interval": 45,
+      "health_check_interval": 30,
+      "max_failures_per_proxy": 3,
+      "connection_timeout": 10,
+      "read_timeout": 30,
+      "concurrent_health_checks": 5,
+      "stealth_mode": true,
+      "user_agent_rotation": true,
+      "header_randomization": true
+    },
+    
+    "stealth_headers": {
+      "user_agents": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0"
+      ],
+      
+      "accept_languages": [
+        "en-US,en;q=0.9",
+        "en-GB,en;q=0.9",
+        "en-CA,en;q=0.9",
+        "en-AU,en;q=0.9"
+      ],
+      
+      "accept_encodings": [
+        "gzip, deflate, br",
+        "gzip, deflate", 
+        "identity"
+      ]
+    },
+    
+    "residential_providers": {
+      "note": "Premium residential proxy services (subscription required)",
+      "providers": [
+        {
+          "name": "Bright Data",
+          "endpoint": "zproxy.lum-superproxy.io:22225",
+          "auth_required": true,
+          "format": "http://username:password@endpoint"
+        },
+        {
+          "name": "Oxylabs", 
+          "endpoint": "pr.oxylabs.io:7777",
+          "auth_required": true,
+          "format": "http://username:password@endpoint"
+        },
+        {
+          "name": "Smartproxy",
+          "endpoint": "gate.smartproxy.com:7000", 
+          "auth_required": true,
+          "format": "http://username:password@endpoint"
+        }
+      ]
+    },
+    
+    "tor_integration": {
+      "enabled": true,
+      "control_port": 9051,
+      "socks_port": 9050,
+      "new_circuit_interval": 600,
+      "endpoints": [
+        "socks5://127.0.0.1:9050",
+        "socks5://127.0.0.1:9150"
+      ]
+    },
+    
+    "proxy_chains": {
+      "enabled": true,
+      "chain_length": 2,
+      "random_chain": true,
+      "examples": [
+        ["socks5://198.50.163.192:3129", "http://45.77.55.173:8080"],
+        ["socks5://138.197.10.76:15300", "http://104.248.90.25:8080"],
+        ["socks5://159.203.61.169:3128", "http://167.172.180.46:39593"]
+      ]
+    },
+    
+    "monitoring": {
+      "success_rate_threshold": 85.0,
+      "response_time_threshold": 5000,
+      "geographic_distribution_check": true,
+      "anonymity_level_verification": true,
+      "real_ip_leak_detection": true
+    },
+    
+    "emergency_config": {
+      "fallback_proxies": [
+        "socks5://127.0.0.1:9050",
+        "http://127.0.0.1:8080"
+      ],
+      "no_proxy_mode": false,
+      "emergency_rotation": true
+    }
+  },
+  
+  "setup_instructions": {
+    "1_basic_setup": "Save this as proxy_config.json in your ShadowFox directory",
+    "2_tor_setup": "Install Tor: apt-get install tor (Linux) or download Tor Browser",
+    "3_verification": "Run: curl --proxy socks5://127.0.0.1:9050 https://httpbin.org/ip",
+    "4_integration": "Update proxy_manager.py to load this config",
+    "5_testing": "Use built-in health check to verify proxy functionality"
+  },
+  
+  "advanced_techniques": {
+    "ip_reputation_checking": [
+      "https://scamalytics.com/ip/",
+      "https://www.abuseipdb.com/check/",
+      "https://www.virustotal.com/gui/ip-address/"
+    ],
+    
+    "geolocation_verification": [
+      "https://ipapi.co/json/",
+      "https://freegeoip.app/json/",
+      "https://ip-api.com/json/"
+    ],
+    
+    "anonymity_testing": [
+      "https://httpbin.org/ip",
+      "https://ipinfo.io/json", 
+      "https://whatismyipaddress.com/api"
+    ]
+  },
+  
+  "legal_disclaimer": "This proxy configuration is for legitimate security testing and research purposes only. Users are responsible for complying with applicable laws and terms of service. ShadowFox Elite Security Team does not endorse illegal activities."
+}
